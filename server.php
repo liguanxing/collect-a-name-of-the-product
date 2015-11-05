@@ -1,6 +1,6 @@
 <?php
 require_once "jssdk.php";
-$jssdk = new JSSDK("wx0dcb7c3de61f5929", "bcb88ca806c401b392cab2687f8d0899");
+$jssdk = new JSSDK(3de61f5929", "bcb88ca806c401b392cab2687f8d0899");
 $signPackage = $jssdk->GetSignPackage();
 ?>
 <!doctype html>
@@ -9,7 +9,7 @@ $signPackage = $jssdk->GetSignPackage();
   <meta charset="gbk">
 <title>
 <?php 
-$serverName = "ZZDIC-8FBD74DF4, 2400"; //serverName\instanceName, portNumber (default is 1433)
+$serverName = "BD74DF4, 2400"; //serverName\instanceName, portNumber (default is 1433)
 $connectionInfo = array( "Database"=>"gps", "UID"=>"gps", "PWD"=>"y2e0a1r2");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 $ID=$_SERVER['QUERY_STRING'];
@@ -167,7 +167,7 @@ onfocus="if(this.value == '名称详细解释'){ this.value = '';this.style.colo
 <br>
 <br>	   
 <?php
-$serverName = "ZZDIC-8FBD74DF4, 2400"; //serverName\instanceName, portNumber (default is 1433)
+$serverName = "-8FBD74DF4, 2400"; //serverName\instanceName, portNumber (default is 1433)
 $connectionInfo = array( "Database"=>"gps", "UID"=>"gps", "PWD"=>"y2e0a1r2");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 $stmt=sqlsrv_query($conn,"select product,name from vote where id=(select max(id) from vote) and name is not null");
@@ -184,7 +184,7 @@ $name = sqlsrv_get_field( $stmt, 1);
 $Name=iconv('GB2312','utf-8//IGNORE',$name);
 ?>
 <?php
-$serverName = "ZZDIC-8FBD74DF4, 2400"; //serverName\instanceName, portNumber (default is 1433)
+$serverName = "8FBD74DF4, 2400"; //serverName\instanceName, portNumber (default is 1433)
 $connectionInfo = array( "Database"=>"gps", "UID"=>"gps", "PWD"=>"y2e0a1r2");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 $stmt=sqlsrv_query($conn,"select top 10 product , name, convert(char,orderdate,120) as date from vote order by id desc");
