@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-$serverName = "ZZDIC-8FBD74DF4, 2400"; 
+$serverName = "8FBD74DF4, 2400"; 
 $connectionInfo = array( "Database"=>"gps", "UID"=>"gps", "PWD"=>"y2e0a1r2");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 if( $conn === false ) {
