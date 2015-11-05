@@ -227,19 +227,9 @@ echo "</table>";
 <dl>
 <dt onClick=javascript:ShowFLT(1) href="javascript:void(null)"><a href="javascript:;"><img src="./fold.jpg" width="15" height="15">第一代指南针介绍</a></dt>
 <dd id=LM1 style="DISPLAY: none">
-<p>第一代护航光动能电子指南针已经成功推向市场，产品性能稳定、功能单
-一，在第一代护航光动能电子指南针的技术积累上、结合原来汽车护航表
-的一些技术，我们研发了一款外观设计新颖时尚，设计理念安全环保,依靠
-太阳能发电工作的新一代光动能指南针。</p>
+<p></p>
 <p><img src="./compass2.jpg" width="230" height="130"></p>
 <p><img src="./compass.gif" width="230" height="130"></p>
-</dd>
-<dt onClick=javascript:ShowFLT(2) href="javascript:void(null)"><a href="javascript:;"><img src="./fold.jpg" width="15" height="15">汽车护航表介绍</a></dt>
-<dd id=LM2 style="DISPLAY: none">
-<p>“护航”系列产品由河南省高迈科技有限公司研发，凝聚了科研人员智慧，融入了最新科技成果。
-公司研发的一系列三轴姿态传感器产品，包括倾角传感器、加速度传感器、倾斜仪、电子罗盘、高度仪等产品。广泛应用于工程机械、车载卫星通信、雷达天线、无线电测向、遥感遥测与舰船导航、海洋探测、矿产、石油钻井测控、风能与太阳能等领域。
-结合研发优势，公司推出了一款集车载电子罗盘、车载电子水平仪、卫星海拔仪、车辆电压检测仪等子系统于一体的多功能车辆运动型综合仪表--“汽车护航表”，可用于越野车辆及热爱户外探险运动的私家车辆。
-</p>
 <p><img src="./hhb.jpg" width="230" height="130"></p>
 <p><img src="./山之航最后一版_10.jpg" width="230" height="130"></p>
 </dd>
